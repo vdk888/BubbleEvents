@@ -1,0 +1,6 @@
+python-telegram-bot[job-queue]==20.7  # Added job-queue extension
+requests==2.31.0  # For making HTTP requests to Perplexity API
+python-dotenv==1.0.0  # For loading environment variables (optional if using Replit Secrets)
+aiohttp==3.9.1  # Required by python-telegram-bot for async operations
+typing-extensions==4.9.0  # For enhanced type hints
+APScheduler>=3.6.3  # Required for job queue functionality
